@@ -1,0 +1,16 @@
+# README Tema 1 - Protocoale de Comunicatii
+
+## Descriere solutie:
+Am implementat dataplane-ul unui router IPv4 in C, folosind Mininet. Solutia realizeaza forwardarea pachetelor IPv4 pe baza unei tabele de rutare statice, utilizand Longest Prefix Match (LPM) implementat eficient cu o trie binara. De asemenea, am tratat corect protocolul ICMP (Time Exceeded, Destination Unreachable si Echo Reply).
+
+Nu am implementat ARP dinamic (subcerinta legata de ARP request/reply si coada de pachete in asteptare).
+
+## Subcerinte rezolvate:
+- [x] Forwarding IPv4
+- [x] Longest Prefix Match (LPM) eficient cu trie
+- [ ] ARP dinamic cu coada
+- [x] ICMP: 
+  - [x] Time Exceeded
+  - [x] Destination Unreachable
+  - [x] Echo Reply
+- [x] Manipulare corecta pachete Ethernet si IP
